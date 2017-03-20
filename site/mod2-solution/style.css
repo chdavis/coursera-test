@@ -1,0 +1,57 @@
+div {
+  color: blue;
+  background-color: orange;
+}
+
+h1 {
+	text-align:center;
+	font-size: 28px;
+}
+
+h2 {
+	position: relative;
+  float: left;
+  
+}
+
+p {
+  border: 1px solid black;
+  padding: 35px 10px 10px;
+  margin: 3px;
+  background-color: grey
+}
+
+article {
+  position: absolute;
+  border: 1px solid black;
+  top: 3px;
+  right: 3px;
+  color: green;
+  font-size: 1.25em;
+}
+
+  #donald{ 
+  	background-color:red;
+}
+#paul {background-color: white
+}
+#mike {background-color: blue}
+
+@media (min-width: 992px){
+	h2 {
+  width: 33.33%;}
+}
+
+
+/********** Medium devices only **********/
+
+@media (min-width: 768px) and (max-width: 991px){
+	h2{
+  width: 50%;}
+  #col-md-12 {width:100%;}
+}
+
+@media (max-width: 767px) {
+	h2{
+  width: 100%
+}
